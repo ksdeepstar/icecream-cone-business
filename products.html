@@ -1,57 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Products - Ice Cream Cone Business</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Sunny Products</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Our Products</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Ice Cream Cones</h2>
-            <div class="product">
-                <img src="../images/products/cone1.jpg" alt="Classic Ice Cream Cone">
-                <h3>Classic Ice Cream Cone</h3>
-                <p>Our classic ice cream cone is perfect for any flavor. Made with high-quality ingredients.</p>
-                <p>Price: $0.10 each</p>
-            </div>
-            <div class="product">
-                <img src="../images/products/cone2.jpg" alt="Waffle Cone">
-                <h3>Waffle Cone</h3>
-                <p>Enjoy our delicious waffle cones, crispy and perfect for holding your favorite ice cream.</p>
-                <p>Price: $0.15 each</p>
-            </div>
-        </section>
-        <section>
-            <h2>Cone Sleeves</h2>
-            <div class="product">
-                <img src="../images/products/sleeve1.jpg" alt="Custom Printed Cone Sleeve">
-                <h3>Custom Printed Cone Sleeve</h3>
-                <p>Promote your brand with our custom printed cone sleeves. Available in various designs.</p>
-                <p>Price: $0.05 each</p>
-            </div>
-            <div class="product">
-                <img src="../images/products/sleeve2.jpg" alt="Standard Cone Sleeve">
-                <h3>Standard Cone Sleeve</h3>
-                <p>Our standard cone sleeves provide a great way to keep your hands clean while enjoying ice cream.</p>
-                <p>Price: $0.03 each</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Ice Cream Cone Business. All rights reserved.</p>
-    </footer>
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <div class="brand">
+        <img src="images/sunny-logo.jpeg" alt="Sunny Products Logo" class="logo-image" />
+        <div class="brand-text">
+          <h1>Sunny Products</h1>
+          <p>Crafting Cones. Elevating Brands.</p>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <h2>Our Products</h2>
+      <p>Sugar cones, waffle cones, and custom sleeve printing for ice cream businesses.</p>
+    </div>
+  </header>
+
+  <section class="section product-listing">
+    <div class="container">
+      <div class="grid products-grid">
+        <div class="product-card">
+          <h3>Sugar Cones</h3>
+          <p>Market-standard sugar cones in multiple sizes with consistent quality.</p>
+        </div>
+        <div class="product-card">
+          <h3>Waffle Cones</h3>
+          <p>Premium waffle cones for a crunchy, delicious ice cream experience.</p>
+        </div>
+        <div class="product-card">
+          <h3>Cone Sleeve Printing</h3>
+          <p>Custom logo and design printing to make your brand stand out.</p>
+        </div>
+      </div>
+
+      <div class="grid info-grid">
+        <div class="card">
+          <h4>Manufacturing Time</h4>
+          <p>Approximately 10 business days after order confirmation.</p>
+        </div>
+        <div class="card">
+          <h4>Pricing</h4>
+          <p>Contact us for a custom quote based on your order.</p>
+        </div>
+        <div class="card">
+          <h4>MOQ</h4>
+          <p>Minimum order quantity details are available on inquiry.</p>
+        </div>
+        <div class="card">
+          <h4>Quality</h4>
+          <p>Strict quality checks at every stage of manufacturing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container cta-box">
+      <h2>Need a quote?</h2>
+      <p>Reach out for pricing and product details.</p>
+      <a href="contact.html" class="btn btn-secondary">Request Quote</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sunny Products</h3>
+        <p>Ice cream cone manufacturing and custom sleeve printing.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>+91 8179750875</p>
+        <p><a href="mailto:products.sunny@gmail.com">products.sunny@gmail.com</a></p>
+        <p>Kukatpally Industrial Estate</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

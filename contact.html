@@ -1,52 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Ice Cream Cone Business</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sunny Products</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Get in Touch</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <div class="brand">
+        <img src="images/sunny-logo.jpeg" alt="Sunny Products Logo" class="logo-image" />
+        <div class="brand-text">
+          <h1>Sunny Products</h1>
+          <p>Crafting Cones. Elevating Brands.</p>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+  <header class="page-header">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Send your inquiry for cones, sleeve printing, or a custom quote.</p>
+    </div>
+  </header>
 
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone">
+  <section class="section contact-section">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <h3>Send a Message</h3>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" required />
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required />
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <p>If you have any questions, feel free to reach out to us at:</p>
-            <p>Email: info@icecreamconebusiness.com</p>
-            <p>Phone: (123) 456-7890</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Ice Cream Cone Business. All rights reserved.</p>
-    </footer>
-    <script src="js/main.js"></script>
+          <label for="phone">Phone *</label>
+          <input id="phone" name="phone" type="tel" required />
+
+          <label for="company">Company</label>
+          <input id="company" name="company" type="text" />
+
+          <label for="subject">Subject *</label>
+          <select id="subject" name="subject" required>
+            <option value="">Select subject</option>
+            <option value="quote">Request a Quote</option>
+            <option value="product">Product Inquiry</option>
+            <option value="custom">Custom Printing</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-block">
+          <h3>Phone</h3>
+          <p><a href="tel:+918179750875">+91 8179750875</a></p>
+        </div>
+        <div class="info-block">
+          <h3>Email</h3>
+          <p><a href="mailto:products.sunny@gmail.com">products.sunny@gmail.com</a></p>
+        </div>
+        <div class="info-block">
+          <h3>Address</h3>
+          <p>Kukatpally Industrial Estate, Hyderabad</p>
+        </div>
+        <div class="info-block">
+          <h3>Response</h3>
+          <p>We reply within 24 business hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sunny Products</h3>
+        <p>Ice cream cone manufacturing and custom sleeve printing.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>+91 8179750875</p>
+        <p><a href="mailto:products.sunny@gmail.com">products.sunny@gmail.com</a></p>
+        <p>Kukatpally Industrial Estate</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
