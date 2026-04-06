@@ -1,0 +1,23 @@
+{
+  "name": "icecream-cone-business",
+  "version": "1.0.0",
+  "description": "A website for a business manufacturing ice cream cones and printing cone sleeves.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "ice cream",
+    "cones",
+    "sleeves",
+    "business"
+  ],
+  "author": "Your Dad's Name",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
